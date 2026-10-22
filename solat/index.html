@@ -112,7 +112,7 @@ li.past{opacity:.45}
   <ol id="list"></ol>
 
   <div class="foot">
-    <span id="src">Waktu rasmi Taqwim 2026, Kementerian Hal Ehwal Ugama.</span> Tutong +1 min, Belait +3 min.<br>
+    <span id="src">Waktu Solat 2026, Kementerian Hal Ehwal Ugama.</span> Tutong +1 min, Belait +3 min.<br>
     Semak jadual rasmi: <a href="https://www.mora.gov.bn/SitePages/WaktuSembahyang.aspx" target="_blank" rel="noopener">mora.gov.bn</a><br>
     Aplikasi tidak rasmi, bukan terbitan kerajaan.
   </div>
@@ -212,7 +212,7 @@ function render(force){
   const vlabel=k=>(k==='Zohor'&&vdow===5)?'Jumaat':k;
   document.getElementById('dayLabel').textContent = view===0 ? 'Hari ini' : view===1 ? 'Esok' : view===-1 ? 'Semalam' : `${HARI[vdow].slice(0,3)}, ${vdd} ${SHORT[vm-1]}${vy!==y?' '+vy:''}`;
   document.getElementById('today').hidden = view===0;
-  document.getElementById('src').textContent = vy===OFFICIAL_YEAR ? 'Waktu rasmi Taqwim 2026, Kementerian Hal Ehwal Ugama.' : 'Anggaran kiraan, Taqwim '+vy+' belum dimasukkan.';
+  document.getElementById('src').textContent = vy===OFFICIAL_YEAR ? 'Waktu Solat 2026, Kementerian Hal Ehwal Ugama.' : 'Anggaran kiraan, Taqwim '+vy+' belum dimasukkan.';
   let cur=null; if(view===0) for(const k of ORDER){ if(!MINOR.has(k)&&k!=='Imsak'&&t[k]<=nowMin) cur=k; }
   const ol=document.getElementById('list'); ol.innerHTML='';
   for(const k of ORDER){
