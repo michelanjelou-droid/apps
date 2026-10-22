@@ -6,6 +6,8 @@ Small web apps for Brunei Darussalam that you can add to your phone's Home Scree
 
 **All apps:** https://michelanjelou-droid.github.io/apps/
 
+> **Disclaimer:** This is an unofficial, personal project. It is not an official government app and is not affiliated with or endorsed by Kementerian Hal Ehwal Ugama or any Brunei government agency. Prayer times are taken from KHEU's published Taqwim. If anything differs, the official Taqwim and announcements from KHEU take precedence.
+
 ## Waktu Solat Negara Brunei Darussalam
 
 Prayer times for Brunei with a countdown to the next prayer.
