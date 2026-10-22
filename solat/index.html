@@ -201,7 +201,7 @@ function render(force){
   if(!next){ const tm=new Date(Date.UTC(y,mo-1,d+1)); const t2=times(tm.getUTCFullYear(),tm.getUTCMonth()+1,tm.getUTCDate()); next={k:'Suboh',at:t2.Suboh+add+1440}; }
   const left=Math.max(0,Math.round((next.at-nowMin)*60));
   document.getElementById('count').textContent=`${pad(Math.floor(left/3600))}:${pad(Math.floor(left/60)%60)}:${pad(left%60)}`;
-  const label=k=>(k==='Zohor'&&n.getUTCDay()===5)?'Jumaat':k;
+  const label=k=>k;
   const key=`${y}-${mo}-${d}-${sel.value}-${next.k}-${view}`;
   if(key===lastKey && !force) return; lastKey=key;
   document.getElementById('date').textContent=`${HARI[n.getUTCDay()]}, ${d} ${BULAN[mo-1]} ${y}`;
@@ -210,7 +210,7 @@ function render(force){
   // list for the chosen day (today by default)
   const vd=new Date(Date.UTC(y,mo-1,d+view)), vy=vd.getUTCFullYear(), vm=vd.getUTCMonth()+1, vdd=vd.getUTCDate(), vdow=vd.getUTCDay();
   const vt=view===0?t:times(vy,vm,vdd); if(view!==0) for(const k in vt) vt[k]+=add;
-  const vlabel=k=>(k==='Zohor'&&vdow===5)?'Jumaat':k;
+  const vlabel=k=>k;
   document.getElementById('dayLabel').textContent = view===0 ? 'Hari ini' : view===1 ? 'Esok' : view===-1 ? 'Semalam' : `${HARI[vdow].slice(0,3)}, ${vdd} ${SHORT[vm-1]}${vy!==y?' '+vy:''}`;
   document.getElementById('today').hidden = view===0;
   document.getElementById('src').textContent = vy===OFFICIAL_YEAR ? 'Waktu Solat 2026. Data daripada Taqwim Hijrah.' : 'Anggaran kiraan, Taqwim '+vy+' belum dimasukkan.';

@@ -15,7 +15,6 @@ Prayer times for Brunei with a countdown to the next prayer.
 **Open:** https://michelanjelou-droid.github.io/apps/solat/
 
 - All eight times each day: Imsak, Suboh, Syuruk, Doha, Zohor, Asar, Maghrib, Isyak
-- Zohor is shown as Jumaat on Fridays
 - District adjustment: Brunei-Muara and Temburong as published, Tutong +1 minute, Belait +3 minutes
 - A month calendar to look up the times for any date
 - Light and dark mode, following your phone's setting
