@@ -1,2 +1,41 @@
 # apps
-Takwim kalendar hijrah Brunei
+
+Small web apps for Brunei Darussalam that you can add to your phone's Home Screen. They open full screen like a normal app, with nothing to download from the App Store.
+
+**All apps:** https://michelanjelou-droid.github.io/apps/
+
+## Waktu Solat
+
+Prayer times for Brunei with a countdown to the next prayer.
+
+**Open:** https://michelanjelou-droid.github.io/apps/solat/
+
+- All eight times each day: Imsak, Suboh, Syuruk, Doha, Zohor, Asar, Maghrib, Isyak
+- Zohor is shown as Jumaat on Fridays
+- District adjustment: Brunei-Muara and Temburong as published, Tutong +1 minute, Belait +3 minutes
+- A month calendar to look up the times for any date
+- Light and dark mode, following your phone's setting
+
+### Source of the prayer times
+
+**2026:** the official times from *Taqwim 2026 Masihi / 1447–1448 Hijriah*, published by Pusat Da'wah Islamiah, Kementerian Hal Ehwal Ugama. All 365 days were entered from the Taqwim and checked against it.
+
+**2027:** the times will be updated once the Taqwim 2027 is published. Until then, 2027 dates show calculated estimates, which usually match to within a minute. The app labels them as estimates.
+
+To check the official times, see the [KHEU prayer times page](https://www.mora.gov.bn/SitePages/WaktuSembahyang.aspx).
+
+## BSB Clock
+
+A quiet wall clock for Bandar Seri Begawan. It has rolling seconds, the moon phase, and sunrise and sunset times. The river skyline, with the Omar Ali Saifuddien Mosque and Kampong Ayer, changes from night to day with the real time.
+
+**Open:** https://michelanjelou-droid.github.io/apps/clock/
+
+Tap **Keep screen on** to use it as a desk or bedside clock.
+
+## Add to your Home Screen
+
+**iPhone:** open the link in Safari, tap Share, then tap **Add to Home Screen**.
+
+**Android:** open the link in Chrome, tap the ⋮ menu, then tap **Add to Home screen** or **Install app**.
+
+When an app is updated, you get the new version automatically the next time you open it. If the old version still shows, close the app fully and open it again.
