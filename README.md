@@ -1,10 +1,12 @@
 # apps
 
+**Waktu Solat Negara Brunei Darussalam**
+
 Small web apps for Brunei Darussalam that you can add to your phone's Home Screen. They open full screen like a normal app, with nothing to download from the App Store.
 
 **All apps:** https://michelanjelou-droid.github.io/apps/
 
-## Waktu Solat
+## Waktu Solat Negara Brunei Darussalam
 
 Prayer times for Brunei with a countdown to the next prayer.
 
